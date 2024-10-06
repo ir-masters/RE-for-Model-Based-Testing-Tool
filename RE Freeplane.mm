@@ -127,7 +127,16 @@
 </node>
 </node>
 <node TEXT="A feladat az alábbi főbb témakörökre bontható:" ID="ID_1401813702" CREATED="1728234669215" MODIFIED="1728234669215">
-<node TEXT="1. Modellalkotás" FOLDED="true" POSITION="bottom_or_right" ID="ID_1034595990" CREATED="1728234669216" MODIFIED="1728234669216">
+<node TEXT="háttérinfók:" POSITION="bottom_or_right" ID="ID_1238157135" CREATED="1728246638614" MODIFIED="1728246641454">
+<node TEXT="BSc Software Test Automation tantárgy" ID="ID_1603862017" CREATED="1728246641470" MODIFIED="1728246718686" LINK="http://compalg.inf.elte.hu/~attila/materials/Test_Automation_Syllabus.pdf">
+<node TEXT="ajánlott irodalom" ID="ID_1565020342" CREATED="1728246764191" MODIFIED="1728246766904">
+<node TEXT="Unit Testing Principles, Practices, and Patterns 1st edition, Author: Vladimir Khorikov" ID="ID_432467976" CREATED="1728246732710" MODIFIED="1728246732710"/>
+<node TEXT="Selenium Testing Tools Cookbook Author: Unmesh Gundecha" ID="ID_821495415" CREATED="1728246732710" MODIFIED="1728246747683"/>
+<node TEXT="Agile Testing: A Practical Guide for Testers and Agile Teams, Author: Lisa Crispin" ID="ID_639561535" CREATED="1728246732716" MODIFIED="1728246750605"/>
+</node>
+</node>
+</node>
+<node TEXT="1. Modellalkotás" POSITION="bottom_or_right" ID="ID_1034595990" CREATED="1728234669216" MODIFIED="1728234669216">
 <node TEXT="Készítsen specifikációt egy model-alapú tesztelési eszköz modellalkotási folyamatára az alábbiakat figyelembe véve:" ID="ID_1898644584" CREATED="1728234737483" MODIFIED="1728234783664">
 <node TEXT="• Specifikáció modelljének „drag and drop” rendszerű összeállítása" POSITION="bottom_or_right" ID="ID_442772244" CREATED="1728234737487" MODIFIED="1728234737487">
 <node TEXT="• Modellek menedzselése" POSITION="bottom_or_right" ID="ID_202597795" CREATED="1728234737487" MODIFIED="1728234737487">
@@ -144,7 +153,9 @@
 <node TEXT="email-értesítések?" ID="ID_214446906" CREATED="1728236750742" MODIFIED="1728236754405"/>
 </node>
 </node>
-<node TEXT="• Automatikus elrendezés, hierarchikus szintek" POSITION="bottom_or_right" ID="ID_1734085500" CREATED="1728234737493" MODIFIED="1728234737493"/>
+<node TEXT="• Automatikus elrendezés, hierarchikus szintek" POSITION="bottom_or_right" ID="ID_1734085500" CREATED="1728234737493" MODIFIED="1728243055428">
+<arrowlink DESTINATION="ID_1597953933"/>
+</node>
 <node TEXT="• Modellalkotásban „building blocks concept” bevezetése" POSITION="bottom_or_right" ID="ID_15921792" CREATED="1728234737494" MODIFIED="1728236001887">
 <arrowlink DESTINATION="ID_416410464"/>
 </node>
@@ -198,7 +209,7 @@
 </node>
 <node TEXT="Biztosítsa az eszköz támogatását a projekt élettartama alatt!" ID="ID_768369966" CREATED="1728234737497" MODIFIED="1728234737497"/>
 </node>
-<node TEXT="2. Tesztek automatikus generálása megadott specifikáció modell alapján" FOLDED="true" POSITION="bottom_or_right" ID="ID_1503797625" CREATED="1728234669217" MODIFIED="1728234712234">
+<node TEXT="2. Tesztek automatikus generálása megadott specifikáció modell alapján" POSITION="bottom_or_right" ID="ID_1503797625" CREATED="1728234669217" MODIFIED="1728234712234">
 <node TEXT="Készítsen specifikációt egy model-alapú tesztelési eszköz automatikus tesztgenerálására az alábbiakat figyelembe véve:" ID="ID_1624143977" CREATED="1728234770630" MODIFIED="1728234795227">
 <node TEXT="• Többfajta tesztgeneráló algoritmus kiválaszthatósága" POSITION="bottom_or_right" ID="ID_1331969020" CREATED="1728234770635" MODIFIED="1728234770635">
 <node TEXT="meglévő algoritmusokat kell integrálnunk?" ID="ID_1722950837" CREATED="1728235930296" MODIFIED="1728237281683">
@@ -290,15 +301,417 @@
 </node>
 </node>
 <node TEXT="stresssz teszt" POSITION="bottom_or_right" ID="ID_601638402" CREATED="1728237974498" MODIFIED="1728237977414"/>
-<node TEXT="stb." POSITION="bottom_or_right" ID="ID_897602086" CREATED="1728237928954" MODIFIED="1728237929974"/>
+<node TEXT="stb." POSITION="bottom_or_right" ID="ID_897602086" CREATED="1728237928954" MODIFIED="1728237929974">
+<node TEXT="Test design techniques:" ID="ID_129584674" CREATED="1728248057739" MODIFIED="1728248090465" LINK="http://compalg.inf.elte.hu/~attila/materials/SQ_syllabus.pdf">
+<node TEXT="• Black-box: Equivalence partitioning, Boundary value analysis, Decision tables, Cause-and-effect graphs, State machines, Use-case testing, Combinatorial techniques" POSITION="bottom_or_right" ID="ID_274982998" CREATED="1728248057739" MODIFIED="1728248071584"/>
+<node TEXT="• White-box: Statement coverage, decision coverage, path testing" POSITION="bottom_or_right" ID="ID_1369671460" CREATED="1728248057745" MODIFIED="1728248057745"/>
+<node TEXT="• Experience based: error guessing, exploratory testing, attack testing" POSITION="bottom_or_right" ID="ID_1803511188" CREATED="1728248057747" MODIFIED="1728248057747"/>
+<node TEXT="• Defect-based testing" POSITION="bottom_or_right" ID="ID_1357083250" CREATED="1728248057749" MODIFIED="1728248057749"/>
+</node>
+<node TEXT="See https://test-design.org" ID="ID_1269126663" CREATED="1728248132420" MODIFIED="1728248132420" LINK="https://test-design.org"/>
+</node>
 </node>
 </node>
 </node>
 <node TEXT="• Döntéstámogató félautomata mód és" POSITION="bottom_or_right" ID="ID_1983286990" CREATED="1728235066220" MODIFIED="1728235350115">
+<node TEXT="&quot;döntéstámogató rendszer&quot;" ID="ID_580686533" CREATED="1728242252917" MODIFIED="1728242270527" LINK="https://hu.wikipedia.org/wiki/D%C3%B6nt%C3%A9st%C3%A1mogat%C3%B3_rendszer">
+<node TEXT="&quot;Decision Support System&quot;" ID="ID_1045413699" CREATED="1728242325733" MODIFIED="1728242332881" LINK="https://en.wikipedia.org/wiki/Decision_support_system">
+<node TEXT="&quot;Decision-making software&quot;" ID="ID_1265360711" CREATED="1728242414487" MODIFIED="1728242420700" LINK="https://en.wikipedia.org/wiki/Decision-making_software">
+<node TEXT="&quot;decision analysis&quot;" ID="ID_1167273983" CREATED="1728242476450" MODIFIED="1728242481395" LINK="https://en.wikipedia.org/wiki/Decision_analysis"/>
+<node TEXT="Multiple-criteria decision analysis" ID="ID_905240692" CREATED="1728242493567" MODIFIED="1728242504365" LINK="https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis">
+<node ID="ID_822424101" CREATED="1728242922300" MODIFIED="1728242922300" LINK="https://en.wikipedia.org/wiki/Aggregated_Indices_Randomization_Method"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Aggregated_Indices_Randomization_Method" class="mw-redirect" title="Aggregated Indices Randomization Method">Aggregated Indices Randomization Method</a>&#xa0;(AIRM)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1753142910" CREATED="1728242922301" MODIFIED="1728242922301" LINK="https://en.wikipedia.org/wiki/Analytic_Hierarchy_Process"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Analytic_Hierarchy_Process" class="mw-redirect" title="Analytic Hierarchy Process">Analytic Hierarchy Process</a>&#xa0;(AHP)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1598557146" CREATED="1728242922309" MODIFIED="1728242922309" LINK="https://en.wikipedia.org/wiki/Analytic_network_process"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Analytic_network_process" title="Analytic network process">Analytic network process</a>&#xa0;(ANP, an extension of AHP)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1602628359" CREATED="1728242922312" MODIFIED="1728242922312" LINK="https://en.wikipedia.org/wiki/Decision_EXpert"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Decision_EXpert" title="Decision EXpert">DEX (Decision EXpert)</a>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_91166535" CREATED="1728242922315" MODIFIED="1728242922315" LINK="https://en.wikipedia.org/wiki/ELECTRE"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/ELECTRE" class="mw-redirect" title="ELECTRE">Elimination and Choice Expressing Reality</a>&#xa0;(ELECTRE)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_5590438" CREATED="1728242922320" MODIFIED="1728242922320" LINK="https://en.wikipedia.org/w/index.php?title=Measuring_Attractiveness_by_a_Categorical_Based_Evaluation_Technique_(MACBETH)&amp;action=edit&amp;redlink=1"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/w/index.php?title=Measuring_Attractiveness_by_a_Categorical_Based_Evaluation_Technique_(MACBETH)&amp;action=edit&amp;redlink=1" class="new" title="Measuring Attractiveness by a Categorical Based Evaluation Technique (MACBETH) (page does not exist)">Measuring Attractiveness by a Categorical Based Evaluation Technique (MACBETH)</a>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_416671482" CREATED="1728242922322" MODIFIED="1728242922322" LINK="https://en.wikipedia.org/wiki/Multi-attribute_global_inference_of_quality"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Multi-attribute_global_inference_of_quality" title="Multi-attribute global inference of quality">Multi-attribute global inference of quality</a>&#xa0;(MAGIQ)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_864719458" CREATED="1728242922324" MODIFIED="1728242922324" LINK="https://en.wikipedia.org/wiki/Potentially_All_Pairwise_RanKings_of_all_possible_Alternatives"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Potentially_All_Pairwise_RanKings_of_all_possible_Alternatives" class="mw-redirect" title="Potentially All Pairwise RanKings of all possible Alternatives">Potentially All Pairwise RanKings of all possible Alternatives</a>&#xa0;(PAPRIKA)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1204283938" CREATED="1728242922328" MODIFIED="1728242922328" LINK="https://en.wikipedia.org/wiki/Preference_Ranking_Organization_Method_for_Enrichment_Evaluation"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Preference_Ranking_Organization_Method_for_Enrichment_Evaluation" class="mw-redirect" title="Preference Ranking Organization Method for Enrichment Evaluation">Preference Ranking Organization Method for Enrichment Evaluation</a>&#xa0;(PROMETHEE)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1003946577" CREATED="1728242922331" MODIFIED="1728242922331" LINK="https://en.wikipedia.org/wiki/Evidential_reasoning_approach"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Evidential_reasoning_approach" title="Evidential reasoning approach">Evidential reasoning approach</a>&#xa0;for MCDM under hybrid uncertainty
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1308154089" CREATED="1728243001956" MODIFIED="1728243001956" LINK="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-BeltonandStewart-8"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      There are significant differences between these methods<sup id="cite_ref-BeltonandStewart_8-3" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-BeltonandStewart-8"><span class="cite-bracket">[</span>8<span class="cite-bracket">]</span></a></sup><span class="cite-bracket"><sup id="cite_ref-Walleniusetal2008_10-1" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Walleniusetal2008-10">[</a></sup></span><sup id="cite_ref-Walleniusetal2008_10-1" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Walleniusetal2008-10">10<span class="cite-bracket">]</span></a></sup>&#xa0;&#xa0;and, accordingly, the DM software implementing them. Such differences include:
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1597953933" CREATED="1728243001957" MODIFIED="1728243001957" LINK="https://en.wikipedia.org/wiki/Hierarchy"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The extent to which the decision problem is broken into a <a href="https://en.wikipedia.org/wiki/Hierarchy" title="Hierarchy">hierarchy</a>&#xa0;&#xa0;of sub-problems;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1680855198" CREATED="1728243001959" MODIFIED="1728243001959" LINK="https://en.wikipedia.org/wiki/Pairwise_comparisons"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Whether or not <a href="https://en.wikipedia.org/wiki/Pairwise_comparisons" class="mw-redirect" title="Pairwise comparisons">pairwise comparisons</a>&#xa0;of alternatives and/or criteria are used to elicit decision-makers' preferences;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1602458979" CREATED="1728243001961" MODIFIED="1728243001961" LINK="https://en.wikipedia.org/wiki/Interval_scale"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The use of <a href="https://en.wikipedia.org/wiki/Interval_scale" class="mw-redirect" title="Interval scale">interval scale</a>&#xa0;or <a href="https://en.wikipedia.org/wiki/Ratio_scale" class="mw-redirect" title="Ratio scale">ratio scale</a>&#xa0;measurements of decision-makers' preferences;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_693202093" CREATED="1728243001962" MODIFIED="1728243001962"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The number of criteria included;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1493464430" CREATED="1728243001964" MODIFIED="1728243001964"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The number of alternatives evaluated, ranging from a few (finite) to infinite;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_859530348" CREATED="1728243001965" MODIFIED="1728243001965"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The extent to which numerical scores are used to value and/or rank alternatives;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1777907961" CREATED="1728243001967" MODIFIED="1728243001967"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The extent to which incomplete rankings (relative to complete rankings) of alternatives are produced;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_158439587" CREATED="1728243001968" MODIFIED="1728243001968"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        The extent to which uncertainty is modeled and analyzed.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Software features" ID="ID_1876052218" CREATED="1728243132659" MODIFIED="1728243135891">
+<node ID="ID_518965544" CREATED="1728243132661" MODIFIED="1728243132661" LINK="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Koksalanetal-3"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In the process of helping decision-makers to rank, prioritize or choose from among alternatives, DM software products often include a variety of features and tools;<sup id="cite_ref-Koksalanetal_3-1" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Koksalanetal-3"><span class="cite-bracket">[</span>3<span class="cite-bracket">]</span></a></sup><span class="cite-bracket"><sup id="cite_ref-Weistrofferetal_4-4" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Weistrofferetal-4">[</a></sup></span><sup id="cite_ref-Weistrofferetal_4-4" class="reference"><a href="https://en.wikipedia.org/wiki/Decision-making_software#cite_note-Weistrofferetal-4">4<span class="cite-bracket">]</span></a></sup>&#xa0;&#xa0;common examples include:
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_845374737" CREATED="1728243132663" MODIFIED="1728243132663" LINK="https://en.wikipedia.org/wiki/Pairwise_comparison_(psychology)"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Pairwise_comparison_(psychology)" title="Pairwise comparison (psychology)">Pairwise comparison</a>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_865110377" CREATED="1728243132664" MODIFIED="1728243132664" LINK="https://en.wikipedia.org/wiki/Sensitivity_analysis"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="https://en.wikipedia.org/wiki/Sensitivity_analysis" title="Sensitivity analysis">Sensitivity analysis</a>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_809168232" CREATED="1728243132666" MODIFIED="1728243132666"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Group evaluation (teamwork)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1966407322" CREATED="1728243132667" MODIFIED="1728243132667"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Web-based implementation
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="milyen döntést akarunk támogatni?" ID="ID_834785439" CREATED="1728238025489" MODIFIED="1728238032429">
 <icon BUILTIN="help"/>
 <node TEXT="feasibility/viability?" ID="ID_86059651" CREATED="1728238037307" MODIFIED="1728238043020"/>
 <node TEXT="feature scope?" ID="ID_448928550" CREATED="1728238034270" MODIFIED="1728238037061"/>
+<node TEXT="release go/no-go?" ID="ID_1704985674" CREATED="1728250472000" MODIFIED="1728250477050"/>
+<node TEXT="sprint/iteration planning?" ID="ID_1172776682" CREATED="1728250482601" MODIFIED="1728250491984"/>
+<node TEXT="feature priorization?" ID="ID_1087016380" CREATED="1728250495904" MODIFIED="1728250498852"/>
 </node>
 <node TEXT="mit jelent, hogy félautomata?" ID="ID_914085120" CREATED="1728238053453" MODIFIED="1728238061409">
 <icon BUILTIN="help"/>
@@ -326,6 +739,9 @@
 </node>
 </node>
 <node TEXT="Biztosítsa az eszköz támogatását a projekt élettartama alatt!" ID="ID_404384598" CREATED="1728235066220" MODIFIED="1728235066220">
+<node TEXT="mi a projekt?" ID="ID_1054161039" CREATED="1728244564300" MODIFIED="1728244570601">
+<icon BUILTIN="help"/>
+</node>
 <node TEXT="a projekt élettartama?" ID="ID_1439161333" CREATED="1728236167724" MODIFIED="1728238644253">
 <icon BUILTIN="help"/>
 <node TEXT="1 év" ID="ID_1231719732" CREATED="1728236397782" MODIFIED="1728236399225"/>
@@ -338,14 +754,15 @@
 <node TEXT="üzemeltetés-biztonság?" ID="ID_1730017063" CREATED="1728236313732" MODIFIED="1728236334845">
 <node TEXT="(= azaz ha ledöglik, élesszük fel)" ID="ID_517890671" CREATED="1728236335116" MODIFIED="1728236368505"/>
 </node>
-<node TEXT="szoftverupdate-ek?" ID="ID_1443287586" CREATED="1728236318315" MODIFIED="1728236321477">
-<node TEXT="ha hibát találnak/találunk benne, javítsuk ki; de ne kerüljenek be új funkciók" ID="ID_674492869" CREATED="1728236371579" MODIFIED="1728236386565"/>
+<node TEXT="bugfixek?" ID="ID_1443287586" CREATED="1728236318315" MODIFIED="1728240642770">
+<node TEXT="ha hibát találnak/találunk benne, javítsuk ki – de ne kerüljenek be új funkciók" ID="ID_674492869" CREATED="1728236371579" MODIFIED="1728240654708"/>
 </node>
 <node TEXT="továbbfejlesztés is?" ID="ID_132701840" CREATED="1728236321593" MODIFIED="1728236391379"/>
+<node TEXT="szakértői segítség/szaktanácsadás/stb.?" ID="ID_1654164453" CREATED="1728240678223" MODIFIED="1728240703859"/>
 </node>
 </node>
 </node>
-<node TEXT="potenciális kérdések" POSITION="bottom_or_right" ID="ID_1195653809" CREATED="1728235195823" MODIFIED="1728235202437">
+<node TEXT="potenciális kérdések" POSITION="bottom_or_right" ID="ID_1195653809" CREATED="1728235195823" MODIFIED="1728253298104">
 <icon BUILTIN="help"/>
 <node TEXT="glossary" ID="ID_404342607" CREATED="1728235474270" MODIFIED="1728235482998">
 <node TEXT="mi az a &quot;SUT&quot;?" ID="ID_858499032" CREATED="1728235457195" MODIFIED="1728235460896">
@@ -384,7 +801,7 @@
 <node TEXT="disztributív/kooperatív (vö. git)?" ID="ID_1013383268" CREATED="1728235672798" MODIFIED="1728235699088"/>
 </node>
 </node>
-<node TEXT="audiencia? (= milyen típusú felhasználóink lesznek?)" ID="ID_470334567" CREATED="1728235758935" MODIFIED="1728235774228">
+<node TEXT="audiencia? (= milyen típusú felhasználóink lesznek? aka User Personas)" ID="ID_470334567" CREATED="1728235758935" MODIFIED="1728246971365">
 <node TEXT="architektek?" ID="ID_374571061" CREATED="1728235816959" MODIFIED="1728235819084"/>
 <node TEXT="tesztírók?" ID="ID_1967294201" CREATED="1728235819203" MODIFIED="1728235822603"/>
 <node TEXT="fejlesztők?" ID="ID_1457698127" CREATED="1728235776126" MODIFIED="1728235778634"/>
@@ -394,6 +811,129 @@
 </node>
 <node TEXT="stakeholderek?" ID="ID_1825705211" CREATED="1728235786831" MODIFIED="1728235789949"/>
 <node TEXT="SME-k? (szakterületi szakértők)" ID="ID_32887258" CREATED="1728235790179" MODIFIED="1728235802289"/>
+</node>
+<node TEXT="NGA módszertan szerint" FOLDED="true" ID="ID_198461921" CREATED="1728250712500" MODIFIED="1728250718818">
+<node TEXT="1. Initial thoughts - Brainstorming" ID="ID_675277517" CREATED="1728250720550" MODIFIED="1728250720550">
+<node TEXT="• What we would like to achieve?" POSITION="bottom_or_right" ID="ID_1023460079" CREATED="1728250720550" MODIFIED="1728250720550"/>
+<node TEXT="• Define scope" POSITION="bottom_or_right" ID="ID_856270049" CREATED="1728250720551" MODIFIED="1728250720551"/>
+<node TEXT="• Define possible customers" POSITION="bottom_or_right" ID="ID_612088673" CREATED="1728250720552" MODIFIED="1728250720552"/>
+<node TEXT="• Define initial budget (and maybe some forecast for later stages)" POSITION="bottom_or_right" ID="ID_390530374" CREATED="1728250720553" MODIFIED="1728250720553"/>
+</node>
+<node TEXT="2. Refine requirements" ID="ID_890433337" CREATED="1728250741345" MODIFIED="1728250741345">
+<node TEXT="• Risks:" POSITION="bottom_or_right" ID="ID_367824315" CREATED="1728250741345" MODIFIED="1728250741345">
+<node TEXT="Too general" ID="ID_255434792" CREATED="1728250751173" MODIFIED="1728250751173">
+<node TEXT="→ too complex architecture → too complicated&#xa;to implement a simple functionality" POSITION="bottom_or_right" ID="ID_855161749" CREATED="1728250751173" MODIFIED="1728250756434"/>
+<node TEXT="→ most of the possible functionalities will never&#xa;be used" POSITION="bottom_or_right" ID="ID_379430106" CREATED="1728250751176" MODIFIED="1728250759488"/>
+</node>
+<node TEXT="Too specific" ID="ID_251114963" CREATED="1728250771056" MODIFIED="1728250771056">
+<node TEXT="→ bad architecture → dirty hacks over&#xa;hardwired structure → hard to maintain" POSITION="bottom_or_right" ID="ID_959001474" CREATED="1728250771056" MODIFIED="1728250774939"/>
+<node TEXT="→ no future-proof (lack of important features)" POSITION="bottom_or_right" ID="ID_1374427308" CREATED="1728250771069" MODIFIED="1728250771069"/>
+</node>
+</node>
+<node TEXT="We should get known possible customers, their goals, problems and current&#xa;processes…etc." ID="ID_86343762" CREATED="1728250818112" MODIFIED="1728250823012">
+<node TEXT="• Otherwise: Ivory tower: we make something that nobody really wants…" POSITION="bottom_or_right" ID="ID_74262753" CREATED="1728250818117" MODIFIED="1728250818117"/>
+</node>
+<node TEXT="An example of collecting requirements – in a structured document:" ID="ID_435235457" CREATED="1728250852439" MODIFIED="1728250852439"/>
+<node TEXT="An example of collecting requirements – tree structure (xmind)" ID="ID_1543258774" CREATED="1728250863650" MODIFIED="1728250863650"/>
+</node>
+<node TEXT="3. Create a prototype" ID="ID_633241603" CREATED="1728250889188" MODIFIED="1728250889188">
+<node TEXT="• Only for proof of concept!" POSITION="bottom_or_right" ID="ID_435527662" CREATED="1728250889188" MODIFIED="1728250889188"/>
+<node TEXT="• Should answer the following questions:" POSITION="bottom_or_right" ID="ID_743161897" CREATED="1728250889198" MODIFIED="1728250981650">
+<node TEXT="• What would we like to achieve?" POSITION="bottom_or_right" ID="ID_1506572890" CREATED="1728250889200" MODIFIED="1728250889200">
+<node TEXT="• List of functionalities" POSITION="bottom_or_right" ID="ID_224035166" CREATED="1728250889203" MODIFIED="1728250889203"/>
+</node>
+<node TEXT="• How would we like to achieve the goal? – non-functional aspects" POSITION="bottom_or_right" ID="ID_1336647685" CREATED="1728250889204" MODIFIED="1728250889204">
+<node TEXT="• Usability ↔ user interface, assumptions about users, working process" POSITION="bottom_or_right" ID="ID_958298168" CREATED="1728250889205" MODIFIED="1728250889205"/>
+<node TEXT="• Performance related aspects:" POSITION="bottom_or_right" ID="ID_46187451" CREATED="1728250889207" MODIFIED="1728250889207">
+<node TEXT="• Responsibility" POSITION="bottom_or_right" ID="ID_1689517125" CREATED="1728250889211" MODIFIED="1728250889211"/>
+<node TEXT="• Designed workload" POSITION="bottom_or_right" ID="ID_613948265" CREATED="1728250889213" MODIFIED="1728250889213"/>
+<node TEXT="• Scalability" POSITION="bottom_or_right" ID="ID_1747240054" CREATED="1728250889213" MODIFIED="1728250889213">
+<node TEXT="↔ software architecture &amp; required hardware" ID="ID_126277541" CREATED="1728250953210" MODIFIED="1728250953210"/>
+</node>
+<node TEXT="• How to handle overload…etc." POSITION="bottom_or_right" ID="ID_281026245" CREATED="1728250889214" MODIFIED="1728250889214"/>
+</node>
+<node TEXT="• Security aspects ↔ architecture" POSITION="bottom_or_right" ID="ID_1208749032" CREATED="1728250889215" MODIFIED="1728250889215"/>
+</node>
+<node TEXT="How we should provide expected quality?" ID="ID_1739331254" CREATED="1728250974723" MODIFIED="1728250974723">
+<node TEXT="• Manual testing for explanatory testing" POSITION="bottom_or_right" ID="ID_1859342981" CREATED="1728250974723" MODIFIED="1728250974723"/>
+<node TEXT="• A few proof-of-concept tests" POSITION="bottom_or_right" ID="ID_1160021812" CREATED="1728250974726" MODIFIED="1728250974726">
+<node TEXT="• Unit, integration, system levels" POSITION="bottom_or_right" ID="ID_1873616064" CREATED="1728250974727" MODIFIED="1728250974727"/>
+<node TEXT="• Functional and non-functional (performance, (G)UI, security…etc.)" POSITION="bottom_or_right" ID="ID_1848787791" CREATED="1728250974727" MODIFIED="1728250974727"/>
+</node>
+</node>
+</node>
+<node TEXT="Prototype:" ID="ID_1776642904" CREATED="1728251015982" MODIFIED="1728251015982">
+<node TEXT="• Role: Proof-of-concept" POSITION="bottom_or_right" ID="ID_1378318007" CREATED="1728251015982" MODIFIED="1728251015982"/>
+<node TEXT="• Not an implementation code base for the final product!" POSITION="bottom_or_right" ID="ID_1068228038" CREATED="1728251015986" MODIFIED="1728251015986"/>
+<node TEXT="From most of the prototypes no real product has been developed due to the following reasons:" ID="ID_420200628" CREATED="1728251033262" MODIFIED="1728251056188">
+<node TEXT="• Wrong assumptions, when defining requirements and scope" ID="ID_989623602" CREATED="1728251033267" MODIFIED="1728251033267"/>
+<node TEXT="• Wrong initial thoughts about possible customers and/or their needs" ID="ID_131017728" CREATED="1728251033268" MODIFIED="1728251033268"/>
+<node TEXT="• Wrong assumptions about budget" ID="ID_84491397" CREATED="1728251033268" MODIFIED="1728251033268"/>
+<node TEXT="• The protype showed that the development cost and/or time would be too high" ID="ID_324219548" CREATED="1728251033269" MODIFIED="1728251033269"/>
+<node TEXT="• Organizational changes in the company resulted in cost cut / project closure" ID="ID_1751632455" CREATED="1728251033270" MODIFIED="1728251033270"/>
+<node TEXT="• Similar product has been developed meanwhile in parallel" ID="ID_1276382634" CREATED="1728251033271" MODIFIED="1728251033271"/>
+</node>
+</node>
+</node>
+<node TEXT="If we succeed then comes…" ID="ID_24138766" CREATED="1728251086612" MODIFIED="1728251116588"/>
+<node TEXT="4. Productification" ID="ID_1414355076" CREATED="1728251086612" MODIFIED="1728251086612">
+<node TEXT="• But many reviews before this step:" POSITION="bottom_or_right" ID="ID_1681409285" CREATED="1728251086616" MODIFIED="1728251086616">
+<node TEXT="• Technical reviews (architecture)" POSITION="bottom_or_right" ID="ID_1982328873" CREATED="1728251086616" MODIFIED="1728251086616"/>
+<node TEXT="• Management reviews at different levels (financial, customer…etc. aspects)" POSITION="bottom_or_right" ID="ID_1180210845" CREATED="1728251086617" MODIFIED="1728251101585"/>
+</node>
+<node TEXT="Project vs. product" ID="ID_992390267" CREATED="1728251132441" MODIFIED="1728251132441">
+<node TEXT="Project Product" POSITION="bottom_or_right" ID="ID_406531571" CREATED="1728251132441" MODIFIED="1728251132441"/>
+<node TEXT="Generic Unique, customer specific Generic" POSITION="bottom_or_right" ID="ID_149064961" CREATED="1728251132444" MODIFIED="1728251132444"/>
+<node TEXT="Time Has beginning and end date Permanent (until phase out)" POSITION="bottom_or_right" ID="ID_654120796" CREATED="1728251132444" MODIFIED="1728251132444"/>
+<node TEXT="Planning One-step/Predictive planning Iterative/adaptive planning" POSITION="bottom_or_right" ID="ID_1934676853" CREATED="1728251132445" MODIFIED="1728251132445"/>
+<node TEXT="Input Project requirements Evolving customer needs" POSITION="bottom_or_right" ID="ID_1864539664" CREATED="1728251132446" MODIFIED="1728251132446"/>
+</node>
+</node>
+<node TEXT="(21. PDF oldaltól folytatni)" ID="ID_393552672" CREATED="1728251199103" MODIFIED="1728251205461"/>
+</node>
+<node TEXT="Követelményhierarchia" ID="ID_640801808" CREATED="1728252937461" MODIFIED="1728253298102"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A requirement is a usable representation of a need. Requirements focus on understanding what kind of value could be delivered if a requirement is fulfilled.
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Business requirements:" FOLDED="true" ID="ID_648290576" CREATED="1728253052730" MODIFIED="1728253075522">
+<node TEXT="statements of goals, objectives, and outcomes that describe why a change has been initiated. They can apply to the whole of an enterprise, a business area, or a specific initiative." POSITION="bottom_or_right" ID="ID_77958365" CREATED="1728253075523" MODIFIED="1728253075526"/>
+</node>
+<node TEXT="Stakeholder requirements:" FOLDED="true" ID="ID_1682842949" CREATED="1728253052733" MODIFIED="1728253223809">
+<node TEXT="describe the needs of stakeholders that must be met in order to achieve the business requirements. They may serve as a bridge between business and solution requirements." POSITION="bottom_or_right" ID="ID_959796162" CREATED="1728253081120" MODIFIED="1728253081120"/>
+</node>
+<node TEXT="Solution requirements:" POSITION="bottom_or_right" ID="ID_1684090397" CREATED="1728252948492" MODIFIED="1728253368960"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      describe the capabilities and qualities of a solution that meets the stakeholder requirements.
+    </p>
+    <p>
+      They provide the appropriate level of detail to allow for the development and implementation of the solution.
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="functional requirements:" ID="ID_1817247133" CREATED="1728253106982" MODIFIED="1728253129642">
+<node TEXT="describe the capabilities that a solution must have in terms of the behaviour and information that the solution will manage" POSITION="bottom_or_right" ID="ID_500770090" CREATED="1728253129644" MODIFIED="1728253129645"/>
+</node>
+<node TEXT="non-functional requirements" ID="ID_200537407" CREATED="1728253106986" MODIFIED="1728253143685">
+<node TEXT="or quality of service requirements: describe conditions under which a solution must remain effective or qualities that a solution must have" POSITION="bottom_or_right" ID="ID_176752092" CREATED="1728253143686" MODIFIED="1728253143687"/>
+</node>
+</node>
+<node TEXT="Transition requirements:" ID="ID_11936798" CREATED="1728253179710" MODIFIED="1728253194487">
+<node TEXT="describe the capabilities that the solution must have and the conditions the solution must meet to facilitate transition from the current state to the future state, but which are not needed once the change is complete." POSITION="bottom_or_right" ID="ID_185126109" CREATED="1728253194489" MODIFIED="1728253205420"/>
+<node TEXT="They are ... of a temporary nature." POSITION="bottom_or_right" ID="ID_557996343" CREATED="1728253205422" MODIFIED="1728253211000"/>
+<node TEXT="Transition requirements address topics such as data conversion, training, and business continuity." POSITION="bottom_or_right" ID="ID_1892076457" CREATED="1728253211002" MODIFIED="1728253211003"/>
+</node>
 </node>
 </node>
 </node>
